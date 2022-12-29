@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+         <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>CeramicPlates</SubtypeId>
+            </Id>
+            <DisplayName>Ceramic Plates</DisplayName>
+            <Icon>Textures\Icons\armour_ceramicplates.png</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>1.75</Volume>
+            <Model>Models\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>53</Health>
+            <MinimumOfferAmount>25</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>2</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+		 <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>SteelArmourPlates</SubtypeId>
+            </Id>
+            <DisplayName>Steel Armour Plates</DisplayName>
+            <Icon>Textures\Icons\armour_steelplate.png</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>1.6</Mass>
+            <Volume>2</Volume>
+            <Model>Models\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>53</Health>
+            <MinimumOfferAmount>25</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>2</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+		
+			<Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>BallisticFiber</SubtypeId>
+            </Id>
+            <DisplayName>Ballistic Fiber</DisplayName>
+            <Icon>Textures\Icons\Kevlar.png</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>0.5</Mass>
+            <Volume>15</Volume>
+            <Model>Models\Kevlar.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>53</Health>
+            <MinimumOfferAmount>25</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>2</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+ 
+    </Components>
+</Definitions>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="EliteTools" BlueprintSubtypeId="CeramicPlates" />
+	<Entry Class="EliteTools" BlueprintSubtypeId="SteelArmourPlates" />
+	<Entry Class="EliteTools" BlueprintSubtypeId="BallisticFiber" />
+	<Entry Class="EliteTools" BlueprintSubtypeId="RepairCeramicPlates" />
+	<Entry Class="EliteTools" BlueprintSubtypeId="RepairSteelArmourPlates" />
+	<Entry Class="EliteTools" BlueprintSubtypeId="RepairBallisticFiber" />
+  </BlueprintClassEntries>
+</Definitions>

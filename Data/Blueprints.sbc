@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CeramicPlates</SubtypeId>
+      </Id>
+      <DisplayName>Ceramic Plates</DisplayName>
+      <Icon>Textures\Icons\armour_ceramicplates.png</Icon>
+      <Prerequisites>
+        <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="45" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="CeramicPlates" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelArmourPlates</SubtypeId>
+      </Id>
+      <DisplayName>Steel Armour</DisplayName>
+      <Icon>Textures\Icons\armour_steelplate.png</Icon>
+      <Prerequisites>
+        <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="45" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="100" TypeId="Component" SubtypeId="SteelArmourPlates" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BallisticFiber</SubtypeId>
+      </Id>
+      <DisplayName>Ballistic Fiber</DisplayName>
+      <Icon>Textures\Icons\Kevlar.png</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="3" TypeId="Component" SubtypeId="Canvas" />
+      </Prerequisites>
+      <Result Amount="25" TypeId="Component" SubtypeId="BallisticFiber" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
